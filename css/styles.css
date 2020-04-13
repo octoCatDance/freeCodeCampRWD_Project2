@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  background: url(https://placeimg.com/640/480/arch) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html #overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(209, 129, 255, 0.5);
+}
+html header {
+  text-align: center;
+  color: white;
+  background-color: rgba(37, 33, 33, 0.9);
+  border-radius: 10px;
+  width: 90%;
+  margin: 16px auto 32px auto;
+}
+html header #title {
+  margin: 0 0 30px 0;
+  padding-top: 30px;
+}
+html header #description {
+  padding-bottom: 30px;
+}
+html #survey-form {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto 16px;
+  background-color: rgba(37, 33, 33, 0.9);
+  border-radius: 9px;
+  padding: 40px 20px;
+}
+html #survey-form label {
+  color: white;
+}
+html #survey-form p {
+  color: white;
+}
+html #survey-form .label-input-pair {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+html #survey-form .label-input-pair label {
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+html #survey-form .label-input-pair input {
+  padding: 10px 0 10px 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px red;
+}
+html #survey-form .label-input-pair input:focus {
+  background-color: #f7d8a0;
+}
+html #survey-form .label-input-pair #dropdown {
+  border: 2px solid lightgrey;
+  height: 42px;
+  box-shadow: 0 0 10px red;
+}
+html #survey-form .label-input-pair #dropdown:focus {
+  background-color: #f7d8a0;
+}
+html #survey-form .recomend-fcc p {
+  font-size: 22px;
+}
+html #survey-form .recomend-fcc .radio-label-pair {
+  margin-bottom: 16px;
+}
+html #survey-form .recomend-fcc .radio-label-pair input {
+  margin-right: 4px;
+}
+html #survey-form .recomend-fcc .radio-label-pair label {
+  font-size: 18px;
+}
+html #survey-form .features-fcc {
+  margin-top: 40px;
+}
+html #survey-form .features-fcc p {
+  font-size: 22px;
+}
+html #survey-form .features-fcc #features {
+  width: 100%;
+  height: 42px;
+  border: 2px solid lightgrey;
+  box-shadow: 0 0 10px red;
+}
+html #survey-form .features-fcc #features:focus {
+  background-color: #f7d8a0;
+}
+html #survey-form .checkbox-field {
+  margin-top: 40px;
+}
+html #survey-form .checkbox-field p {
+  font-size: 22px;
+}
+html #survey-form .checkbox-field .checkbox-label-pair {
+  margin-bottom: 12px;
+}
+html #survey-form .checkbox-field .checkbox-label-pair input {
+  margin-right: 4px;
+}
+html #survey-form .checkbox-field .checkbox-label-pair label {
+  font-size: 18px;
+}
+html #survey-form .textarea-label {
+  margin-top: 40px;
+}
+html #survey-form .textarea-label p {
+  font-size: 22px;
+}
+html #survey-form .textarea-label #comments {
+  width: 100%;
+  height: 110px;
+  padding: 10px 0 0 5px;
+  box-shadow: 0 0 10px red;
+  border-radius: 4px;
+}
+html #survey-form .textarea-label #comments:focus {
+  background-color: #f7d8a0;
+}
+html #survey-form #submit {
+  width: 100%;
+  background-color: #06b406;
+  padding: 20px 0;
+  margin-top: 22px;
+}
+
+/*# sourceMappingURL=styles.css.map */
